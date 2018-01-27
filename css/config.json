@@ -1,0 +1,10 @@
+{
+  "vars": {},
+  "css": [
+    "forms.less",
+    "navs.less",
+    "navbar.less"
+  ],
+  "js": [],
+  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=993cdee37984fccf02e0dfa9d5c3b73b"
+}

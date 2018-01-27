@@ -1,0 +1,217 @@
+/*
+Theme Name: HMTIF
+Theme URI:
+Author: sukangoding
+Author URI: https://hmtif.unpas.ac.id/
+Description: HMTIF UNPAS theme
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.medium-grey {
+  background-color: #f7f7f7;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-medium-dark {
+  background-color: #333;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.bg-transparant {
+  border: 1px solid white;
+  background: transparent;
+}
+
+.bg-input-transparant {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+
+.bg-transparant:hover {
+  background: white;
+  color: #247a4e;
+}
+
+button {
+  /*width: 150px;*/
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hr {
+  margin-top: 20px;
+  height: 10px;
+  width: 100px;
+}
+.hr-center {
+  margin: auto;
+  margin-top: 20px;
+  height: 10px;
+  width: 100px;
+}
+
+.margin-small-top {
+  margin-top: 5%;
+}
+
+.margin-medium-top {
+  margin-top: 20%;
+}
+
+.container {
+  width: 80%;
+}
+
+.navbar-brand {
+  height: 85px;
+}
+
+.nav >li >a {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.jumbotron {
+    background-image: url("asset/cover-bg.jpg");
+    background-color: #17234E;
+    margin-bottom: 0;
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: white;
+    background-color: #00a651;
+    background-blend-mode: darken;
+    padding-top: 150px;
+}
+
+.jumbotron h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.jumbotron p {
+  font-size: 12pt;
+}
+
+.margin-small-bottom {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: #004138;
+  color: white;
+}
+
+.up {
+  top: -60px;
+  position: relative; 
+  margin-top: 25px;
+}
+
+.jumlah {
+  font-size: 35pt;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gambarkahim {
+  padding: 20px;
+
+}
+
+.gambarkahim img {
+ /* width: 280px;
+  height: 410px;*/
+}
+
+.gambarpengurus {
+  padding: 10px;
+  text-align: center;
+}
+
+.gambarpengurus img {
+/*  width: 500px;
+  height: 330px;*/
+}
+
+.htimer {
+  font-size: 50pt;
+}
+
+.linkwhite {
+  text-decoration: none;
+  color: white;
+}
+
+.agenda {
+  background-image: url("asset/bg-acara.jpg");
+  background-color: #17234E;
+  margin-bottom: 0;
+  min-height: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: white;
+  background-color: #00a651;
+  background-blend-mode: darken;
+  padding: 20px;
+}
+
+.kontak {
+  background-image: url("asset/bg.jpg");
+  background-color: #17234E;
+  margin-bottom: 0;
+  min-height: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: white;
+  background-color: #00a651;
+  padding: 10px;
+  background-blend-mode: darken;
+}
+
+option {
+  color: #333;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
